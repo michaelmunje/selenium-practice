@@ -25,6 +25,7 @@ else
 fi
 
 url+=".zip"
+rm chromedriver
 wget -O chromedriver.zip $url
 unzip chromedriver.zip
 rm chromedriver.zip
